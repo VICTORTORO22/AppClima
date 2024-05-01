@@ -1,0 +1,28 @@
+
+
+.loading-container {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(214, 241, 252, 0.5);
+    display: flex;
+    align-items: center;
+  }
+  
+  .spinner-border {
+    width: 2rem;
+    height: 2rem;
+    border-width: 0.25em;
+    border-color: currentColor;
+    border-top-color: transparent !important;
+    border-radius: 50%;
+    animation: spinner-border 0.75s linear infinite;
+  }
+  
+ 
+  
+  @keyframes spinner-border {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
